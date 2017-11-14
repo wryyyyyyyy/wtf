@@ -1,3 +1,5 @@
+//gcc -I/usr/lib/x86_64-linux-gnu/perl/5.26.1/CORE -L/usr/lib/x86_64-linux-gnu -s -O2 main.cpp -o embed_perl -lperl -lm
+
 #include <EXTERN.h>
 #include <perl.h>
 
