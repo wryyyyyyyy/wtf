@@ -1,3 +1,5 @@
+//gcc -I/usr/include/python3.6m -L/usr/lib/x86_64-linux-gnu -lpython3.6m -lpthread -ldl -lutil -lm main.cpp -o embed_python
+
 #include <Python.h>
 
 int
