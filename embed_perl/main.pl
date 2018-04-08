@@ -1,3 +1,3 @@
-#!/usr/bin/perl
-
-print "Hello from Perl $]\n";
+#print "Hello from $]\n\@INC contains: @INC\n"; 
+use lib './lib';
+use wtf;
